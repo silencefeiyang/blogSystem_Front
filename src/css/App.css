@@ -1,0 +1,196 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html,body{
+  height: 100%;
+  background-color: rgb(225, 235, 83) !important;
+  font-family: "STHeiti";
+}
+body{
+  padding:0 30px;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a,p{
+  color:inherit;
+  text-decoration: none;
+  margin: 0;
+}
+#root, #home{
+  height: 100%;
+}
+/* #root div:first-child{
+  display: flex;
+  flex-direction: column;
+} */
+.header{
+  height:100px;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+  flex-shrink: 0;
+}
+.header .title{
+  line-height: 100px;
+  font-size:30px;
+}
+.header .manege{
+  display: flex;
+}
+.header .manege span{
+  background-color: #fff;
+  width:80px;
+  line-height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.body{
+  display: flex;
+  flex-grow: 1;
+}
+.side{
+  width:100px;
+  height: 70%;
+  color:white;
+  background-color: black;
+}
+.side ul{
+  height: 100%;
+  padding-top: 20px;
+}
+.side ul li{
+  cursor: pointer;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.side ul li:hover{
+  background-color: rgba(223, 212, 66, 0.877);
+}
+.list{
+  padding-left: 20px;
+}
+.nav{
+  display: flex;
+}
+.nav a{
+  width:100%;
+  height: 100%;
+}
+.main{
+  margin-left: 20px;
+  background-color: #fff;
+  flex-grow: 1;
+  color:black;
+}
+.login{
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-tab{
+  line-height: 50px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.login-tab span{
+  font-size:20px;
+  margin-right:10px;
+  text-align: center;
+  width:80px;
+}
+.login-tab input{
+  width:200px;
+  height:40px;
+  border:none;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.login button{
+  width:150px;
+  line-height: 40px;
+  border:0;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.title{
+  cursor: pointer;
+}
+.list-item{
+  padding: 20px 0 20px 20px;
+  border-bottom:1px dashed #999;
+}
+.list-main .info {
+  margin-bottom: 10px;
+}
+.list-main .info span{
+  color:#666;
+  margin-right: 5px;
+}
+.manege{
+  padding:10px;
+}
+.manege .manege-title{
+  line-height: 30px;
+  font-size:20px;
+}
+.manege .list{
+  line-height: 30px;
+}
+.manege .list .item{
+  display: flex;
+  padding-right: 100px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #999;
+}
+.manege .list .item button{
+  cursor: pointer;
+}
