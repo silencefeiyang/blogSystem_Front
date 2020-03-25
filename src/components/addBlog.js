@@ -6,9 +6,19 @@ class AddBlog extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="add">
                 <h2>添加博客</h2>
-                <textarea></textarea>
+                <section className="add-module">
+                    <div className="title">
+                        <span>标题</span>
+                        <input></input>
+                    </div>
+                    <div className="title">
+                        <span>内容</span>
+                        <textarea></textarea>
+                    </div>
+                    <button>提交</button>
+                </section>
             </div>
          );
     }

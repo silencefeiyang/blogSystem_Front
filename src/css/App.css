@@ -194,3 +194,22 @@ a,p{
 .manege .list .item button{
   cursor: pointer;
 }
+.add{
+  padding-left: 10px;
+}
+.add .add-module{
+  padding: 10px;
+}
+.add .title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.add .title span{
+  margin-right:20px;
+}
+.add .title textarea{
+  width:500px;
+  height: 400px;
+  resize: none;
+}
